@@ -1,3 +1,9 @@
+# revision 17484
+# category Package
+# catalog-ctan /macros/latex/contrib/midpage
+# catalog-date 2010-03-17 12:20:59 +0100
+# catalog-license lppl
+# catalog-version 1.1a
 Name:		texlive-midpage
 Version:	1.1a
 Release:	1
@@ -38,6 +44,7 @@ followed by \clearpage.
 %{_texmfdistdir}/tex/latex/midpage/midpage.sty
 %doc %{_texmfdistdir}/doc/latex/midpage/midpage.pdf
 %doc %{_texmfdistdir}/doc/latex/midpage/midpage.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -48,3 +55,5 @@ followed by \clearpage.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
