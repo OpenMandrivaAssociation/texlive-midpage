@@ -6,7 +6,7 @@
 # catalog-version 1.1a
 Name:		texlive-midpage
 Version:	1.1a
-Release:	6
+Release:	7
 Summary:	Environment for vertical centring
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/midpage
