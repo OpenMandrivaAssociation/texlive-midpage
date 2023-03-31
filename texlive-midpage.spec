@@ -1,6 +1,6 @@
 Name:		texlive-midpage
 Version:	17484
-Release:	1
+Release:	2
 Summary:	Environment for vertical centring
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/midpage
