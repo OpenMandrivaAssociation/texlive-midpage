@@ -3,7 +3,7 @@ Version:	17484
 Release:	2
 Summary:	Environment for vertical centring
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/midpage
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/midpage
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/midpage.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/midpage.doc.r%{version}.tar.xz
